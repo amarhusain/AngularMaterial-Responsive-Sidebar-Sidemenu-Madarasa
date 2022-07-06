@@ -1,0 +1,83 @@
+/* primary */
+$crimson-pallete: (50 : #fbe3e8,
+    100 : #f5b9c5,
+    200 : #ee8a9e,
+    300 : #e75b77,
+    400 : #e13759,
+    500 : #dc143c,
+    600 : #d81236,
+    700 : #d30e2e,
+    800 : #ce0b27,
+    900 : #c5061a,
+    A100 : #ffeeef,
+    A200 : #ffbbc0,
+    A400 : #ff8890,
+    A700 : #ff6f78,
+    contrast: (50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    ));
+
+/* secondary */
+$rhino-pallete: (50 : #e8e9ea,
+    100 : #c5c8cb,
+    200 : #9fa3a9,
+    300 : #797e86,
+    400 : #5c626c,
+    500 : #3f4652,
+    600 : #393f4b,
+    700 : #313741,
+    800 : #292f38,
+    900 : #1b2028,
+    A100 : #6fa4ff,
+    A200 : #3c83ff,
+    A400 : #0963ff,
+    A700 : #0057ef,
+    contrast: (50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #ffffff,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    ));
+
+$dark-crimson-900:#5E091A;
+$dark-crimson-800:#880C25;
+$dark-crimson-700:#B21031;
+$crimson:#DC143C; // rgba(220, 20, 60, 1)
+$light-crimson-500:#EC3257;
+$light-crimson-400:#F05C79;
+$light-crimson-300:#F4869C;
+$light-crimson-100 : #f5b9c5;
+$light-crimson-50 : #fbe3e8;
+$crimson-complementary-600:#008BA7;
+$crimson-complementary-700:#00728F;
+$crimson-complementary-800:#005B78;
+$gray-50: #f7f7f7;
+$gray-100 : #c5c8cb;
+$gray-200 : #9fa3a9;
+$gray-300 : #797e86;
+$gray-400 : #5c626c;
+
+$beat-text-color: rgb(85, 95, 119);
+
+$team-background-color:rgb(251, 227, 232, 0.5)

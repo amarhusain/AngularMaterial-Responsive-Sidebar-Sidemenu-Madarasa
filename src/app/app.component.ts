@@ -1,11 +1,23 @@
-import { Component, VERSION } from '@angular/core';
+import { MediaMatcher } from '@angular/cdk/layout';
+import { ChangeDetectorRef, Component, HostListener, OnDestroy } from '@angular/core';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+	selector: 'beat-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.scss']
 })
-export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
-  
+export class AppComponent {
+
+	options = this.fb.group({
+		bottom: 0,
+		fixed: false,
+		top: 0,
+	});
+
+	constructor(private fb: FormBuilder) {
+
+	}
+
+
 }
